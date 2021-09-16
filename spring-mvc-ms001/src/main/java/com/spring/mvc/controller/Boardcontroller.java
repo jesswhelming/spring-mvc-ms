@@ -24,15 +24,5 @@ public class Boardcontroller {
 	public String registerForm(HttpServletRequest request) {
 		return "/board/register";
 	}
-	
-	@RequestMapping(value = "/read/{boardNo}", method = RequestMethod.GET)
-	public String read(int boardNo, HttpServletRequest request, Model model) {
-		
-		return "/board/read";
-	}
-	
-	@RequestMapping(value = "/read/{no}", method = RequestMethod.GET)
-	public String read2(int boardNo, HttpServletRequest request) {
-		return "/board/read";
-	}
+
 }

@@ -131,6 +131,7 @@
                     </additionalBuildcommands>
                     <downloadSources>true</downloadSources>
                     <downloadJavadocs>true</downloadJavadocs>
+                    <addResources>true</addResources>
                 </configuration>
             </plugin>
             <plugin>
@@ -143,6 +144,7 @@
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
+                    <addResources>true</addResources>
                 </configuration>
             </plugin>
             <plugin>
@@ -151,6 +153,7 @@
                 <version>1.2.1</version>
                 <configuration>
                     <mainClass>org.test.int1.Main</mainClass>
+                    <addResources>true</addResources>
                 </configuration>
             </plugin>
         </plugins>
