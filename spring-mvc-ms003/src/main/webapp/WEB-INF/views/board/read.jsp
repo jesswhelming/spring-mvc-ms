@@ -3,11 +3,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>SPRING MISSION 001</title>
+<title>SPRING MISSION 003</title>
 </head>
 <body>
-	<H1>REGISTER</H1>
-	<H1>등록화면</H1>
+	<H1>READ</H1>
+	<H1>읽기화면</H1>
 	<a href="/">HOME</a>
 </body>
 </html>

@@ -7,45 +7,21 @@
 </head>
 <body>
 <h1>
-	SPRING MISSION 001  
+	SPRING MISSION 004  
 </h1>
-<table>
-	<thead>
-		<tr>
-			<th>no</th>
-			<th>url</th>
-			<th>title</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td><a href="/board/register">/board/register</a></td>
-			<td>등록</td>		
-		</tr>
-		<tr>
-			<td>2</td>
-			<td><a href="/board/modify">/board/modify</a></td>
-			<td>수정</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td><a href="/board/list">/board/list</a></td>
-			<td>목록</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td><a href="/board/read">/board/read/10</a></td>
-			<td>읽기</td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td><a href="/board/read">/board/read/100</a></td>
-			<td>읽기2</td>
-		</tr>
-	</tbody>
-</table>
+<form name="regForm" action="/board/register" method="POST">
+</form>
+<form name="modForm" action="/board/modify" method="POST">
+</form>
+<form name="rmForm" action="/board/remove" method="POST">
+</form>
+<button onclick="location.href='/board/register'">register (GET)</button><br>
+<button onclick="javascript:document.regForm.submit();">register (POST)</button><br>
+<button onclick="location.href='/board/modify'">modify (GET)</button><br>
+<button onclick="javascript:document.modForm.submit();">modify (POST)</button><br>
 
-
+<input type="text"><button onclick="location.href='/board/read/10'">read (GET)</button><br>
+<button onclick="location.href='/board/list'">list (GET)</button><br>
+<button onclick="javascript:document.rmForm.submit();">remove (POST)</button><br>
 </body>
 </html>
