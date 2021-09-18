@@ -50,7 +50,7 @@
 		</tr>
 		<tr>
 			<td>4</td>
-			<td><a href="/board/get?read/10">/board/get?read</a></td>
+			<td><a href="/board/get?read">/board/get?read</a></td>
 			<td>읽기</td>
 		</tr>
 		<tr>
